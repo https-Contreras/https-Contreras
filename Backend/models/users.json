@@ -1,0 +1,8 @@
+[
+  { "cuenta": "ana",     "contrasena": "ana123" },
+  { "cuenta": "juan",    "contrasena": "juan123" },
+  { "cuenta": "luis",    "contrasena": "luis123" },
+  { "cuenta": "sofia",   "contrasena": "sofia123" },
+  { "cuenta": "diego",   "contrasena": "diego123" },
+  { "cuenta": "admin",   "contrasena": "admin123" }
+]

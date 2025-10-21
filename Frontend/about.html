@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuestra Pasión - Aroma Café</title> 
+  <link rel="stylesheet" href=" estilos.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="nav-logo">Aroma Café</a> 
+      <a href="index.html" class="nav-link">Inicio</a>
+      <a href="about.html" class="nav-link active">Nosotros</a>  
+    </div>
+    <div class="nav-right">
+      <span id="userName" class="user-name"></span>
+      <button id="loginBtn" class="icon-btn" title="Login">
+      <span class="login-icon">🔒</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h1>Nuestra Pasión por el Café</h1>
+      <p>Somos más que una cafetería. Somos un punto de encuentro para amantes del buen café, dedicados a seleccionar los mejores granos de comercio justo de todo el mundo.</p>
+      <p>Nuestra misión es ofrecerte una experiencia única en cada taza, en un ambiente acogedor y relajante diseñado para que puedas desconectar, trabajar o simplemente disfrutar de un buen momento.</p>
+    </section>
+  </main>
+
+    <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Iniciar Sesión</h2>
+      <form id="formLogin">
+      <input type="text" id="login" placeholder="Usuario" required>
+      <input type="password" id="password" placeholder="Contraseña" required>
+      <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+    <footer class="footer">
+    <div class="footer-content">
+  <p><strong>Jael Dantez Contreras Estrada</strong> | 20 de octubre 2025</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="app.js"></script>
+</body>
+</html>
